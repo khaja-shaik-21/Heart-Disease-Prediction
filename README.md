@@ -23,13 +23,13 @@ This project is a **Heart Disease Prediction System** that predicts the likeliho
 git clone https://github.com/yourusername/heart-disease-prediction.git
 ``bash
 
-Install dependencies:
+**### Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ``bash
 
-Run the application:
-Run the Django server:
+**### Run the application:
+### Run the Django server:**
 
 ```bash
 python manage.py runserver
