@@ -18,20 +18,16 @@ This project is a **Heart Disease Prediction System** that predicts the likeliho
 
 ## Installation
 
-### Clone the repository:
-```bash
+#!/bin/bash
+
+# Clone the repository
 git clone https://github.com/yourusername/heart-disease-prediction.git
 
+# Navigate to the project directory
+cd heart-disease-prediction
 
-Install dependencies:**
-
+# Install dependencies
 pip install -r requirements.txt
 
-Run the application:
-Run the Django server:
-
-
+# Run the Django server
 python manage.py runserver
-
-
-Open your browser and go to http://127.0.0.1:8000/ to access the Heart Disease Prediction form.
