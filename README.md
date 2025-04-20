@@ -13,7 +13,7 @@ This project is a **Heart Disease Prediction System** that predicts the likeliho
 - **Backend**: Django (Python)
 - **Frontend**: HTML, CSS
 - **Machine Learning**: Python (scikit-learn, pandas)
-- **Styling**: Bootstrap for responsive design
+- **Machine Learnig Model**: LogesticRegression
 - **Version Control**: Git for tracking changes
 
 ## Installation
