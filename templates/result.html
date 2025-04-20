@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <h2>Prediction Result</h2>
+    {% if result|slice:":5" == "Error" %}
+        <p class="error">{{ result }}</p>
+    {% else %}
+        <p class="success">{{ result }}</p>
+    {% endif %}
+    <a href="{% url 'home' %}">Back to Home</a>
+</div>
+{% endblock %}
